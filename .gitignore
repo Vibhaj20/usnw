@@ -1,0 +1,21 @@
+# Virtual Environment & Python cache
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Dataset Files & Output Folders
+*.csv
+*.pt
+*.pkl
+models/
+results/
+unsw_acgan_outputs/
+unsw_final_augmented/
+unsw_gan_baseline_outputs/
+unsw_preprocessed/
+unsw_wcgan_outputs/
+
+# IDE / System
+.vscode/
+.DS_Store
